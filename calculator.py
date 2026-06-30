@@ -1,8 +1,7 @@
 class Calc:
-    def __init__(self, a, b):
-        self.a = a
-        self.b = b
+    def __init__(self):
+        pass
 
-    def getSum(self):
-        return self.a + self.b
+    def getSum(self, a, b):
+        return a + b
 
