@@ -27,3 +27,9 @@ def test_getSumSum(a, b, c, expected):
     calc = Calc()
     ret = calc.getSumSum(a, b, c)
     assert ret == expected
+
+
+def test_sample():
+    cal = Calc()
+    assert cal.getMinus(10, 5) == 5
+    assert cal.getMinus(1, 1) == 0
