@@ -11,3 +11,10 @@ def test_sample():
 def test_get_sum(a,b,expected):
     calc = Calc()
     assert expected == calc.getSum(a, b)
+
+def test_getZegop():
+    cal = Calc()
+
+    result = cal.getZegop(2)
+
+    assert result == 4
