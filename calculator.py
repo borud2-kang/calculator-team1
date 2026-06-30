@@ -3,3 +3,6 @@ class Calc:
         if b == 0:
             raise ZeroDivisionError
         return a / b
+
+    def getSumSum(self, a, b, c):
+        return a + b + c
