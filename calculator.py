@@ -1,4 +1,10 @@
 class Calc:
+
+    def __init__(self):
+        pass
+
+    def getGop(self, a : int ,b : int) -> int:
+        return a * b
     def getDivide(self, a, b):
         if b == 0:
             raise ZeroDivisionError
