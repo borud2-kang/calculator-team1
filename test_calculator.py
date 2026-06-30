@@ -1,6 +1,9 @@
 import pytest
 
+from calculator import Calc
+
 
 def test_sample():
-    assert 1 == 1
-    pytest.fail()
+    cal = Calc()
+    assert cal.getMinus(10, 5) == 5
+    assert cal.getMinus(1, 1) == 0

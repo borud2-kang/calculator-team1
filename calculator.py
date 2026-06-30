@@ -1,3 +1,3 @@
 class Calc:
-    # 이곳에 코드를 작성
-    pass
+    def getMinus(self, a, b):
+        return a - b
